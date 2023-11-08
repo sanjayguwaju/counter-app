@@ -23,7 +23,7 @@ function App() {
         <h1>Counter: {count}</h1>
         <input type="number" onChange={handleInputChange} value={count} />
         <span><button onClick={addOne}>add</button>
-        <button onClick={subtractOne}>Bello</button></span>
+        <button onClick={subtractOne}>Subtract</button></span>
 
       </header>
     </div>
