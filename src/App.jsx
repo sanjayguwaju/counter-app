@@ -22,7 +22,7 @@ function App() {
       <header className="App-header">
         <h1>Counter: {count}</h1>
         <input type="number" onChange={handleInputChange} value={count} />
-        <span><button onClick={addOne}>Hello</button>
+        <span><button onClick={addOne}>add</button>
         <button onClick={subtractOne}>Bello</button></span>
 
       </header>
