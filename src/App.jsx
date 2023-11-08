@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Number: {count}</h1>
+        <h1>Counter: {count}</h1>
         <input type="number" onChange={handleInputChange} value={count} />
         <span><button onClick={addOne}>Hello</button>
         <button onClick={subtractOne}>Bello</button></span>
